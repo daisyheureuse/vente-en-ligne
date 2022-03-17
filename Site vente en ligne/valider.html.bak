@@ -1,0 +1,71 @@
+<html>
+<head>
+	<title>Apprentissage de creation des formulaires en HTLM5</title>
+</head>
+<body>
+	<div>
+	<form method="POST" action="traitement.html">
+		<fieldset>
+			<legend><h4>Adresse de livraison</h4></legend>
+			<div>
+		
+			<label for="prenom">prenom:</label>
+			<input type="text" name="prenomUtilisateur"id="prenom" placeholder="votre"prenom svp!>
+		</div>
+		<br>
+		<div>
+
+		<label for="nom">Nom</label>
+
+		<input type="text" name="nom"id="nom" placeholder="votre nom svp!">
+
+		</div>
+		<br>
+		<div>
+			<label for="clique_adresse_mail">Adresse E-mail :</label>
+			<input type="email" name="utilisateur id=clique_adresse_mail"
+			placeholder="entrer votre email svp!" required="required">
+			</div>
+			<br>
+			<div>
+
+				<label for="mot_de passe">Mot de passe:</label>
+				<input type="password" name="motdepasse" id="mot_de_passe" 
+			</div>
+			<div>
+			<br>
+			<label for="telephone">NUMERO DE TELEPHONE</label>
+			<input type="name" name="NUMERO TELEPHONE" id=NUMERO telephone" placeholder"=votre NUMERO">
+			<br>
+		</div>
+		<br>
+			<div>
+				<select name="paysUtilisateur">
+				<option>Votre pays</option>
+				<optgroup label="Afrique">
+				<option value="SN">Sénégal</option>
+				<option value="MN">Mauritanie</option>
+				<option value="CCO">Congo Brazzaville</option>
+			</optgroup>
+			<optgroup>
+			<optgroup label="Amerique">
+				<option value="US">Etats unis</option>
+				<option value="CD">Canada</option>
+				<option value="cu">cuba</option>
+				<optiion value="RDC">republique Démocratique du congo</optiion>
+			</label>
+			</optgroup>
+		</select></div>
+		<br>
+		<div>
+			<label><input type="checkbox" name="recevoirnews value=newxs">Recevoir par
+			mail un message </label>
+		</div>
+			<br>
+			<button type="submit" name="formulaireConnexion">Valider</button>
+		</fieldset>
+
+	</form>
+	</div>
+</body>
+</html>

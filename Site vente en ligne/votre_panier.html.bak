@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<nav>
+       <div class="table">
+            <ul>
+	            <li class="menu-ind">
+	                <a href="index.html">Accueil</a>
+	            </li>
+	            <li class="menu-Nos">
+	                <a href="Nos_articles.html">nos articles</a>
+		        </li>
+	            <li class="menu-vot">
+	                <a href="votre_panier.html">Mon panier</a>
+	            </li>
+	            <li class="menu-val">
+	                <a href="valider.html">Payer</a>
+	            </li>
+	        </ul>
+		</div>
+    </nav>
+<div>
+		<form methode="POST" action="traitementInscription" name="Inscription"></form>
+		<fieldset>
+		<legend><h4>Inscription</h4></legend>
+		<div>
+		<label for="nom">Nom</label>
+
+		<input type="text" name="nom"id="nom" placeholder="votre nom svp!">
+
+		</div>
+		<br>
+		<div>
+
+			
+
+			<label for="dateNaissance">Date de naissance: </label>
+			<input type="date" name="dateNaissance" id="dateNaissance" placeholder="JJ/MM/AA">
+			</div>
+			<div>
+				<label><input type="radio" name="sexeUtilisateur" value="M" id="sexeUtilisateur">
+				Masculin</label>
+			</div>
+			<br>
+			<div>
+				<label><input type="radio" name="sexeUtilisateur" value="F">feminin</label>
+			</div>
+			<br>
+			<div>
+			<label for="mdp"> Creer un mot de passe</label>
+			<input type="password" name="motdepasseuser" id="mdp">
+
+		</div>
+		<br>
+		<div>
+			<label for="mdpc">Confirmation :</label>
+			<input type="password" name="motdepasseuserconfirm" id="mdpc">
+		</div>
+		<br>
+		<div>
+			<label><input type="chekbox" name="smstransaction"checked="checked"> Recevoir
+			un sms pour chaque achat</label>
+
+		</div>
+		<br><a href="valider.html">
+		<button type="submbit" name="Inscription">je
+		m'inscris </button></a>
+	   </fieldset>
+	</div>
+	<style>
+	   	nav{
+	width:100%;
+	background-color:#424558;
+}
+nav ul{
+	margin:0px;
+	padding:0px;
+}
+nav li{
+	list-style-type:none;
+	float:left;
+}
+nav a{
+	display:inline-black;
+	text-decoration:none;
+	padding:20px 30px;
+	color:#FFF;
+	text-transform:uppercase;
+	font-size:15px;
+}
+.table{
+	display:table;
+	margin:0 auto;
+}
+.menu-ind:hover{
+	border-top:5px solid #4C8;
+	background-color:RGBa(64,200,130,0.15);
+}
+.menu-Nos:hover{
+	border-top:5px solid#f1dc4f;
+	background-color:RGBa(241, 211, 79, 0.15);
+}
+.menu-vot:hover{
+	border-top:5px solid #0070BB;
+	background-color:RGBa(000, 112, 192, 0.15!);
+}
+.menu-val:hover{
+	border-top:5px solid #e44d26;
+	background-color:RGBa(228, 77, 38, 0.15);
+
+}
+nav li:hover a{
+	padding:15px 30px 20px 30px;
+}
+.head{
+background-color:#C5C5C5;
+}
+</style>
+</head>
+</html>

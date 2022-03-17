@@ -1,0 +1,135 @@
+<html>
+<head>
+	<title>Apprentissage de creation des formulaires en HTLM5</title>
+</head>
+<body>
+   <nav>
+       <div class="table">
+            <ul>
+	            <li class="menu-ind">
+	                <a href="index.html">Accueil</a>
+	            </li>
+	            <li class="menu-Nos">
+	                <a href="Nos_articles.html">nos articles</a>
+		        </li>
+	            <li class="menu-vot">
+	                <a href="votre_panier.html">Mon panier</a>
+	            </li>
+	            <li class="menu-val">
+	                <a href="valider.html">Payer</a>
+	            </li>
+	        </ul>
+		</div>
+    </nav>
+	<div>
+	<form method="POST" action="traitement.html">
+		<fieldset>
+			<legend><h4>Adresse de livraison</h4></legend>
+			<div>
+		
+			<label for="prenom">prenom:</label>
+			<input type="text" name="prenomUtilisateur"id="prenom" placeholder="votre"prenom svp!>
+		</div>
+		<br>
+		<div>
+
+		<label for="nom">Nom</label>
+
+		<input type="text" name="nom"id="nom" placeholder="votre nom svp!">
+
+		</div>
+		<br>
+		<div>
+			<label for="clique_adresse_mail">Adresse E-mail :</label>
+			<input type="email" name="utilisateur id=clique_adresse_mail"
+			placeholder="entrer votre email svp!" required="required">
+			</div>
+			<br>
+			<div>
+
+				<label for="mot_de passe">Mot de passe:</label>
+				<input type="password" name="motdepasse" id="mot_de_passe" 
+			</div>
+			<div>
+			<br>
+			<label for="telephone">NUMERO DE TELEPHONE</label>
+			<input type="name" name="NUMERO TELEPHONE" id=NUMERO telephone" placeholder"=votre NUMERO">
+			<br>
+		</div>
+		<br>
+			<div>
+				<select name="paysUtilisateur">
+				<option>Votre pays</option>
+				<optgroup label="Afrique">
+				<option value="SN">Sénégal</option>
+				<option value="MN">Mauritanie</option>
+				<option value="CCO">Congo Brazzaville</option>
+			</optgroup>
+			<optgroup>
+			<optgroup label="Amerique">
+				<option value="US">Etats unis</option>
+				<option value="CD">Canada</option>
+				<option value="cu">cuba</option>
+				<optiion value="RDC">republique Démocratique du congo</optiion>
+			</label>
+			</optgroup>
+		</select></div>
+		<br>
+		<div>
+			<label><input type="checkbox" name="recevoirnews value=newxs">Recevoir par
+			mail un message </label>
+		</div>
+			<br>
+			<button type="submit" name="formulaireConnexion">Valider</button>
+		</fieldset>
+
+	</form>
+	</div>
+	<style>
+	    	nav{
+	width:100%;
+	background-color:#424558;
+}
+nav ul{
+	margin:0px;
+	padding:0px;
+}
+nav li{
+	list-style-type:none;
+	float:left;
+}
+nav a{
+	display:inline-black;
+	text-decoration:none;
+	padding:20px 30px;
+	color:#FFF;
+	text-transform:uppercase;
+	font-size:15px;
+}
+.table{
+	display:table;
+	margin:0 auto;
+}
+.menu-ind:hover{
+	border-top:5px solid #4C8;
+	background-color:RGBa(64,200,130,0.15);
+}
+.menu-Nos:hover{
+	border-top:5px solid#f1dc4f;
+	background-color:RGBa(241, 211, 79, 0.15);
+}
+.menu-vot:hover{
+	border-top:5px solid #0070BB;
+	background-color:RGBa(000, 112, 192, 0.15!);
+}
+.menu-val:hover{
+	border-top:5px solid #e44d26;
+	background-color:RGBa(228, 77, 38, 0.15);
+
+}
+nav li:hover a{
+	padding:15px 30px 20px 30px;
+}
+</style>
+</body>
+</html>
